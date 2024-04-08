@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Friend in Need - AI</title>
+    <link rel="stylesheet" type="text/css" href="static/fin-ai.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/3494b96017.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="bot-container">
+        <div class="header">Fin-AI</div>
+        <div class="chat-box" id="chat-box">
+            <!-- Chat messages will be displayed here -->
+            <p>Welcome</p>
+        </div>
+        <div class="user-input input-group mb-3">
+            <input type="text" id="user-chat" placeholder="Type your message..." name="input-source" onkeypress="handleKeyPress(event)">
+            <span class="input-group-text" style="border: 1px solid darkmagenta; border-radius: 5px"><i class="fa-solid fa-microphone"value="2" ></i></span>
+            <button id="send-button"  onclick="sendUserMessage()"><i class="fa-solid fa-circle-arrow-right"></i></button>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='fin-ai.js') }}">
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,71 @@
+/* Style the chat container */
+.bot-container {
+    max-width: 700px;
+    margin: 10px auto;
+    padding: 20px;
+    border: 1px solid mediumorchid;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 2px 5px 5px black;
+
+}
+
+/* Style the chat header */
+.header {
+    font-size: 40px;
+    color: darkmagenta;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #fff;
+}
+
+/* Style the chat log area */
+.chat-box {
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+    background-color: darkmagenta;
+}
+
+/* Style the user input section */
+.user-input {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: 350px;
+}
+
+/* Style the user message input field */
+#user-chat {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid darkmagenta;
+    border-radius: 10px;
+    width: 200px;
+}
+
+/* Style the send button */
+#send-button {
+    padding: 5px 10px;
+    background-color: #fff;
+    color: darkmagenta;
+    border: 1px solid darkmagenta;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="text"] {
+    margin-right: 5px;
+}
+
+i{
+    color: darkmagenta;
+}
+
+
+
+
